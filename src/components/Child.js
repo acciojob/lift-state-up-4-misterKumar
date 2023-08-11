@@ -6,8 +6,10 @@ const Child = ({ items, removeItem }) => {
         <h2>Child Component</h2>
       {items.map((item, index) => (
         <div key={index}>
-          <span>{item.name} - ${item.price}</span>
-          <button onClick={() => removeItem(index)}>Remove</button>
+          <ul className="child li">
+            <li >{item.name} - ${item.price} <button onClick={() => removeItem(index)}>Remove</button></li>
+        </ul>
+          
         </div>
       ))}
     </div>

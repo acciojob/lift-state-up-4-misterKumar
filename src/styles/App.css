@@ -6,7 +6,8 @@
   
   .child {
    background-color: rgb(202,95,27);
-   padding: 30px;
+ 
+   padding: 3px;
   }
   #itemName{
     padding: 10px;
@@ -14,5 +15,8 @@
   #itemPrice{
     padding: 10px;
   }
-  
+  .child li{
+    padding: 0px;
+    margin-left: 30px;
+  }
   
