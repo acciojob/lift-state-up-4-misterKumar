@@ -1,1 +1,18 @@
 
+.parent {
+   background-color:rgb(115,255,4);
+   padding: 30px;
+  }
+  
+  .child {
+   background-color: rgb(202,95,27);
+   padding: 30px;
+  }
+  #itemName{
+    padding: 10px;
+  }
+  #itemPrice{
+    padding: 10px;
+  }
+  
+  
